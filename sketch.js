@@ -22,9 +22,9 @@ function setup() {
 function draw() {
  background(255);
   
- if(city.x<0){
-   city.x=city.width/2
- }
+ if(city.x <520){
+  city.x = 700;
+}
 
   drawSprites();
  
